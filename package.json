@@ -1,7 +1,7 @@
 {
   "name": "ide-vue",
   "main": "./src/main",
-  "version": "0.1.7",
+  "version": "0.1.9",
   "description": "Vue language support for Atom-IDE.",
   "repository": "rwatts3/atom-ide-vue",
   "license": "MIT",
@@ -29,8 +29,9 @@
   },
   "scripts": {},
   "dependencies": {
-    "atom-languageclient": "^0.6.7",
-    "vue-language-server": "^0.0.25"
+    "atom-languageclient": "^0.7.3",
+    "fuzzaldrin-plus": "^0.6.0",
+    "vue-language-server": "0.0.28"
   },
   "devDependencies": {
     "@types/atom": "0.0.39",
